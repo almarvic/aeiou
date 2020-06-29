@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta property="og:site_name" content="San Roque 2014 Pollos">
+    <meta property="og:title" content="San Roque 2014 Pollos" />
+    <meta property="og:description" content="Programa de fiestas" />
+    <meta property="og:image" itemprop="image" content="http://pollosweb.wesped.es/programa_pollos/play.png">
+    <meta property="og:type" content="website" />
+    <meta property="og:updated_time" content="1440432930" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Cambia vocales</title>
+
+    <link rel="icon" type="image/x-icon" href="https://www.vodafone.es/c/statics/maestro/logo_vodafone.png">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="translator">
+        <div>
+            <h1>AEIOU</h1>
+    
+            <label>Selecciona la vocal de tu preferencia:</label>
+            <div id="vowelsList"></div>
+
+            <div class="textareaMain">
+                <textarea name="text" maxlength="600">aeiou</textarea>
+                <span name='textareaCounter' class="counter">600</span>
+            </div>
+    
+            <p id="translation">iiiiii</p>
+
+        </div>
+        <div class="buttonContainer">
+            <button id="translateAll">Traduce toda la pagina</button>
+    
+            <button id="translate">Traducir</button>
+            <button id="speak">Reproduce todo el texto traducido</button>
+        </div>
+
+    </div>
+
+    <script src="textarea-counter.js"></script>
+    <script src="text2speech.js"></script>
+
+</body>
+
+</html>
